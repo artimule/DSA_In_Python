@@ -1,0 +1,17 @@
+List vs Tuple 
+The main differences between lists and tuples are:
+
+1.Lists are mutable, while tuples are immutable.
+
+2.Lists are represented using square brackets [], while tuples are represented using parentheses ().
+
+3.Lists are typically used for collections of items that may change over time, while tuples are typically used for collections of related items that should not change.
+
+functions Vs methods
+The main differences between functions and methods are:
+
+1.Functions are stand-alone blocks of code, while methods are associated with objects.
+
+2.Functions are defined using the def keyword, while methods are defined inside a class definition.
+
+3.Functions can be called using the function name, while methods are called on objects using the dot notation.

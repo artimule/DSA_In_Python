@@ -1,0 +1,16 @@
+python
+sql
+powerBi+excel
+Machine learning
+
+strong knowledge 
+numpy 
+pandas
+nltk
+spacy
+sklearn
+pytorch
+tensorflow
+RNN
+LSTM
+BERT

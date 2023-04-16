@@ -1,0 +1,10 @@
+Set vs list
+the main differences between sets and lists are:
+
+1.Sets are unordered, while lists are ordered.
+
+2.Sets contain only unique elements, while lists can contain duplicates.
+
+3.Lists use square brackets [ ] to enclose their elements, while sets use curly braces { }.
+
+4.Sets are typically used for membership testing and to perform mathematical set operations such as union, intersection, and difference, while lists are typically used for ordered data that may contain duplicates.
