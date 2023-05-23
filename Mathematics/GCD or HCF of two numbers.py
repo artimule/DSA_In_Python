@@ -1,4 +1,4 @@
-GCD or HCF of two numbers
+'''GCD or HCF of two numbers
 
 Given two numbers. The task is to find the GCD of the two numbers.
 
@@ -11,7 +11,7 @@ y : Non-negative integer whose gcd has to be computed.
 Returns: An absolute/positive integer value after calculating 
  the GCD of given parameters x and y.
 Exceptions: When Both x and y are 0, function returns 0, 
- If any number is a character, Type error is raised.
+ If any number is a character, Type error is raised.'''
 # Python code to demonstrate the working of gcd()
 # importing "math" for mathematical operations
 import math
@@ -19,21 +19,21 @@ import math
 # prints 12
 print("The gcd of 60 and 48 is : ", end="")
 print(math.gcd(60, 48))
-Output
 
-The gcd of 60 and 48 is : 12
-Using Euclidean Algorithm :
+# Output
+# The gcd of 60 and 48 is : 12
+# Using Euclidean Algorithm :
 
-The Euclid’s algorithm (or Euclidean Algorithm) is a method for efficiently finding the greatest common divisor (GCD) of two numbers. The GCD of two integers X and Y is the largest number that divides both of X and Y (without leaving a remainder).
+# The Euclid’s algorithm (or Euclidean Algorithm) is a method for efficiently finding the greatest common divisor (GCD) of two numbers. The GCD of two integers X and Y is the largest number that divides both of X and Y (without leaving a remainder).
 
-Pseudo Code of the Algorithm-
+# Pseudo Code of the Algorithm-
 
-Let  a, b  be the two numbers
-a mod b = R
-Let  a = b  and  b = R
-Repeat Steps 2 and 3 until  a mod b  is greater than 0
-GCD = b
- Finish
+# Let  a, b  be the two numbers
+# a mod b = R
+# Let  a = b  and  b = R
+# Repeat Steps 2 and 3 until  a mod b  is greater than 0
+# GCD = b
+#  Finish
 # Recursive function to return gcd of a and b
 def gcd(a, b):
 
@@ -61,10 +61,10 @@ else:
 	print('not found')
  
 
-Output
+# Output
 
-GCD of 98 and 56 is 14
-Using Optimised Euclidean Algorithm :
+# GCD of 98 and 56 is 14
+# Using Optimised Euclidean Algorithm :
 
 def hcf(a, b):
 	if(b == 0):
@@ -80,6 +80,5 @@ print("The gcd of 60 and 48 is : ", end="")
 print(hcf(60, 48))
  
 
-Output
-
-The gcd of 60 and 48 is : 12
+# Output
+# The gcd of 60 and 48 is : 12
