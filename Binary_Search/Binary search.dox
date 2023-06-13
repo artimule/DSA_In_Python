@@ -1,0 +1,8 @@
+Binary Search : Explained
+Let’s consider this simple problem statement: You are given an array of integers and a key element, your task is to search for the key in the given array.
+
+One simple approach you can follow is to traverse through the entire array and while traversing compare every element with the key, if the key is a match with current array element then you are done with your task. 
+
+But what if the given array length is very large? If you check every element with a key then it will take more time which is not optimal.
+
+So, to optimise the search operation we will use “Binary Search”, that is an algorithm for searching and uses the “Divide and Conquer” technique.
