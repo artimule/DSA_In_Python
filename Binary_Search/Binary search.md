@@ -187,10 +187,13 @@ def lowerBound(arr: [int], n: int, x: int) -> int:
     return ans
 
 if __name__ == "__main__":
+
     arr = [3, 5, 8, 15, 19]
     n = 5
     x = 9
+    
     ind = lowerBound(arr, n, x)
+    
     print("The lower bound is the index:", ind)
     
 **What is Upper Bound?**
@@ -230,9 +233,12 @@ def upperBound(arr: [int], x: int, n: int) -> int:
     return ans
 
 if __name__ == "__main__":
+
     arr = [3, 5, 8, 9, 15, 19]
     n = 6
     x = 9
+    
     ind = upperBound(arr, x, n)
+    
     print("The upper bound is the index:", ind)
 
