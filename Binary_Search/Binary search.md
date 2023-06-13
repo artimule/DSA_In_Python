@@ -108,6 +108,7 @@ Else if the key is greater than the element at the middle index then call the fu
 ![image](https://github.com/Artimule/DSA_In_Python/assets/53312100/198d2841-3731-4868-a93b-de039332a8ec)
 
 public class BinarySearch {
+
   public static int binarySearch(int[] arr, int start, int end, int k) {
 
     if (start > end) {
