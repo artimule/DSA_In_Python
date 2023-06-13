@@ -146,6 +146,6 @@ public class BinarySearch {
 
 **Element 14 Found at 5 index**
 
-**Time complexity: O(log n) **
+**Time complexity: O(log n)**
 
 **Space complexity: O(logn) for auxiliary space**
