@@ -186,7 +186,7 @@ def lowerBound(arr: [int], n: int, x: int) -> int:
 
     return ans
 
-if __name__ == "__main__":
+if __ name__ == "__ main__":
 
     arr = [3, 5, 8, 15, 19]
     n = 5
@@ -232,7 +232,7 @@ def upperBound(arr: [int], x: int, n: int) -> int:
 
     return ans
 
-if __name__ == "__main__":
+if __ name__ == "__ main__":
 
     arr = [3, 5, 8, 9, 15, 19]
     n = 6
