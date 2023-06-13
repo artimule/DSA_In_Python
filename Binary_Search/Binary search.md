@@ -88,18 +88,18 @@ public class BinarySearch {
     }
 }
 
-**Output: Element 14 Found at 5 index
+**Output: Element 14 Found at 5 index**
 
-**Time complexity: O(log n)
+**Time complexity: O(log n)**
 
- **Space complexity : O(1)
-**Recursive Approach:
+ **Space complexity : O(1)**
+**Recursive Approach:**
 
 Intuition and approach: In the iterative code we are making the array half using a while loop every time, in the same way, we can half the array by passing the indices to the function again and again.
 
 While halving the array by calling functions again and again we will check for conditions that we checked in iterative code.
 
-Algorithm: 
+**Algorithm:** 
 
 If start is less than end perform Binary search else terminate the algorithm.
 If the element at the middle index is equal to the key then return the index as it found the key
@@ -142,10 +142,10 @@ public class BinarySearch {
   }
 }
 
-**Output:
+**Output:**
 
-**Element 14 Found at 5 index
+**Element 14 Found at 5 index**
 
-**Time complexity: O(log n) 
+**Time complexity: O(log n) **
 
-**Space complexity: O(logn) for auxiliary space
+**Space complexity: O(logn) for auxiliary space**
