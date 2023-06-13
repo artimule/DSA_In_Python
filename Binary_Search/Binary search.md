@@ -48,6 +48,7 @@ So make start = mid+1;
 Mid = (4+6)/2 = 10/2 = 5
 
 ![image](https://github.com/Artimule/DSA_In_Python/assets/53312100/b69c2e54-2499-4498-bdae-4cb9ae44d068)
+
 Now the key is not > array[mid] and not < array[mid] but it is equal to array[mid], So algorithm stops here.
 **Iterative code:**
 public class BinarySearch {
@@ -86,6 +87,7 @@ public class BinarySearch {
 
     }
 }
+
 **Output: Element 14 Found at 5 index
 
 **Time complexity: O(log n)
@@ -139,6 +141,7 @@ public class BinarySearch {
 
   }
 }
+
 **Output:
 
 **Element 14 Found at 5 index
